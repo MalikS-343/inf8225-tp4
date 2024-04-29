@@ -1,0 +1,409 @@
+[{
+"Model": "gpt3.5/gpt-3.5-turbo_zeroshot",
+"Rouge": {
+    "rouge1_fmeasure": 88.96,
+    "rouge1_precision": 88.99,
+    "rouge1_recall": 89.26,
+    "rouge2_fmeasure": 79.39,
+    "rouge2_precision": 79.40,
+    "rouge2_recall": 79.68,
+    "rougeL_fmeasure": 88.37,
+    "rougeL_precision": 88.40,
+    "rougeL_recall": 88.67,
+    "rougeLsum_fmeasure": 88.37,
+    "rougeLsum_precision": 88.39,
+    "rougeLsum_recall": 88.67
+    },
+"Bleu": {
+    "BLEU" :  72.74,
+    "1-gram" : 88.5,
+    "2-gram" : 77.5,
+    "3-gram" : 68.6,
+    "4-gram" : 60.9
+    },
+"Token-Based Detection" : {
+    "TP":   2169,
+    "FP":   5115,
+    "FN":   2975,
+    "Prec": 29.78,
+    "Rec":  42.17,
+    "F0.5": 31.64
+    },
+"Span-Based Correction" : {
+    "TP":   947,
+    "FP":   3598,
+    "FN":   3348,
+    "Prec": 20.84,
+    "Rec":  22.05,
+    "F0.5": 21.07
+    }
+},
+
+{
+"Model": "gpt4-turbo/gpt-4-turbo_fewshot",
+"Rouge": {
+    "rouge1_fmeasure": 89.53,
+    "rouge1_precision": 89.51,
+    "rouge1_recall": 89.86,
+    "rouge2_fmeasure": 80.49,
+    "rouge2_precision": 80.46,
+    "rouge2_recall": 80.82,
+    "rougeL_fmeasure": 88.95,
+    "rougeL_precision": 88.93,
+    "rougeL_recall": 89.28,
+    "rougeLsum_fmeasure": 88.95,
+    "rougeLsum_precision": 88.93,
+    "rougeLsum_recall": 89.28
+    },
+"Bleu": {
+    "BLEU" : 74.16,
+    "1-gram": 88.9,
+    "2-gram": 78.5,
+    "3-gram": 70.0,
+    "4-gram": 62.6
+    },
+"Token-Based Detection" : {
+    "TP":   2560,
+    "FP":   5369,
+    "FN":   2584,
+    "Prec": 32.29,
+    "Rec":  49.77,
+    "F0.5": 34.73
+    },
+"Span-Based Correction" : {
+    "TP":   1173,
+    "FP":   3964,
+    "FN":   3122,
+    "Prec": 22.83,
+    "Rec":  27.31,
+    "F0.5": 23.61
+    }
+},
+
+{
+"Model": "gpt4-turbo/gpt-4-turbo_zeroshot",
+"Rouge": {
+    "rouge1_fmeasure": 89.40,
+    "rouge1_precision": 89.37,
+    "rouge1_recall": 89.76,
+    "rouge2_fmeasure": 80.15,
+    "rouge2_precision": 80.11,
+    "rouge2_recall": 80.51,
+    "rougeL_fmeasure": 88.85,
+    "rougeL_precision": 8.882,
+    "rougeL_recall": 89.21,
+    "rougeLsum_fmeasure": 88.85,
+    "rougeLsum_precision": 88.82,
+    "rougeLsum_recall": 89.20
+    },
+"Bleu": {
+    "BLEU" : 73.71,
+    "1-gram": 88.6,
+    "2-gram": 78.0,
+    "3-gram": 69.4,
+    "4-gram": 61.8
+    },
+"Token-Based Detection" : {
+    "TP":   2606,
+    "FP":   5462,
+    "FN":   2538,
+    "Prec": 32.3,
+    "Rec":  50.66,
+    "F0.5": 34.82
+    },
+"Span-Based Correction" : {
+    "TP":   1171,
+    "FP":   4083,
+    "FN":   3124,
+    "Prec": 22.29,
+    "Rec":  27.26,
+    "F0.5": 23.13
+    }
+},
+
+{
+"Model": "gpt4/gpt-4_zeroshot",
+"Rouge": {
+    "rouge1_fmeasure": 89.22,
+    "rouge1_precision": 89.16,
+    "rouge1_recall": 89.61,
+    "rouge2_fmeasure": 79.88,
+    "rouge2_precision": 79.82,
+    "rouge2_recall": 80.26,
+    "rougeL_fmeasure": 88.63,
+    "rougeL_precision": 88.57,
+    "rougeL_recall": 89.02,
+    "rougeLsum_fmeasure": 88.63,
+    "rougeLsum_precision": 88.57,
+    "rougeLsum_recall": 89.01
+    }
+,
+"Bleu": {
+    "BLEU" : 73.92,
+    "1-gram": 88.7,
+    "2-gram": 78.3,
+    "3-gram": 69.7,
+    "4-gram": 62.3
+    },
+"Token-Based Detection" : {"TP":   2520,
+    "FP":   5324,
+    "FN":   2624,
+    "Prec": 32.13,
+    "Rec":  48.99,
+    "F0.5": 34.5
+    },
+"Span-Based Correction" : {"TP":   1135,
+    "FP":   3916,
+    "FN":   3160,
+    "Prec": 22.47,
+    "Rec":  26.43,
+    "F0.5": 23.16
+    }
+},
+
+{
+"Model": "llama/Llama_fewshot",
+"Rouge": {
+    "rouge1_fmeasure": 86.19,
+    "rouge1_precision": 85.61,
+    "rouge1_recall": 87.76,
+    "rouge2_fmeasure": 75.49,
+    "rouge2_precision": 74.95,
+    "rouge2_recall": 76.93,
+    "rougeL_fmeasure": 85.43,
+    "rougeL_precision": 84.87,
+    "rougeL_recall": 86.95,
+    "rougeLsum_fmeasure": 85.48,
+    "rougeLsum_precision": 84.90,
+    "rougeLsum_recall": 87.02
+    },
+"Bleu": {
+    "BLEU" : 63.98,
+    "1-gram": 80.4,
+    "2-gram": 68.4,
+    "3-gram": 59.2,
+    "4-gram": 51.4
+    },
+"Token-Based Detection" : {
+    "TP":   2531,
+    "FP":   6111,
+    "FN":   2613,
+    "Prec": 29.29,
+    "Rec":  49.2,
+    "F0.5": 31.87
+    },
+"Span-Based Correction" : {
+    "TP":   978,
+    "FP":   4803,
+    "FN":   3317,
+    "Prec": 16.92,
+    "Rec":  22.77,
+    "F0.5": 17.83
+    }
+},
+
+{
+"Model": "llama/output_Meta-Llama-3-8B-Instruct_4",
+"Rouge": {
+    "rouge1_fmeasure": 59.91,
+    "rouge1_precision": 47.30,
+    "rouge1_recall": 90.16,
+    "rouge2_fmeasure": 50.59,
+    "rouge2_precision": 39.86,
+    "rouge2_recall": 76.91,
+    "rougeL_fmeasure": 58.01,
+    "rougeL_precision": 45.86,
+    "rougeL_recall": 87.08,
+    "rougeLsum_fmeasure": 58.92,
+    "rougeLsum_precision": 46.53,
+    "rougeLsum_recall": 88.60
+    },
+"Bleu": {
+    "BLEU" : 26.86,
+    "1-gram": 35.8,
+    "2-gram": 29.0,
+    "3-gram": 24.4,
+    "4-gram": 20.5
+    },
+"Token-Based Detection" :{
+    "TP":   2435,
+    "FP":   6624,
+    "FN":   2709,
+    "Prec": 26.88,
+    "Rec":  47.34,
+    "F0.5": 29.42
+    },
+"Span-Based Correction" :{
+    "TP":   838,
+    "FP":   5895,
+    "FN":   3457,
+    "Prec": 12.45,
+    "Rec":  19.51,
+    "F0.5": 13.42
+    }
+},
+
+{
+"Model": "mistral/Mistral_fewshot",
+"Rouge": {
+    "rouge1_fmeasure": 84.37,
+    "rouge1_precision": 84.81,
+    "rouge1_recall": 84.65,
+    "rouge2_fmeasure": 72.43,
+    "rouge2_precision": 72.78,
+    "rouge2_recall": 72.74,
+    "rougeL_fmeasure": 83.53,
+    "rougeL_precision": 83.96,
+    "rougeL_recall": 83.80,
+    "rougeLsum_fmeasure": 83.54,
+    "rougeLsum_precision": 83.97,
+    "rougeLsum_recall": 83.81
+    },
+"Bleu": {
+    "BLEU" : 64.49,
+    "1-gram": 83.4,
+    "2-gram": 69.7,
+    "3-gram": 59.5,
+    "4-gram": 51.0
+    },
+"Token-Based Detection" : {
+    "TP":   2613,
+    "FP":   6670,
+    "FN":   2531,
+    "Prec": 28.15,
+    "Rec":  50.8,
+    "F0.5": 30.9
+    },
+"Span-Based Correction" : {
+    "TP":   905,
+    "FP":   5026,
+    "FN":   3390,
+    "Prec": 15.26,
+    "Rec":  21.07,
+    "F0.5": 16.15
+    }
+},
+
+{
+"Model": "mistral/output_Mistral-7B-Instruct-v0.1_4",
+"Rouge": {
+    "rouge1_fmeasure": 81.12,
+    "rouge1_precision": 80.82,
+    "rouge1_recall": 83.34,
+    "rouge2_fmeasure": 68.80,
+    "rouge2_precision": 68.49,
+    "rouge2_recall": 70.77,
+    "rougeL_fmeasure": 80.11,
+    "rougeL_precision": 79.83,
+    "rougeL_recall": 82.22,
+    "rougeLsum_fmeasure": 80.19,
+    "rougeLsum_precision": 79.89,
+    "rougeLsum_recall": 82.37
+    },
+"Bleu": {
+    "BLEU" : 57.31,
+    "1-gram": 75.0,
+    "2-gram": 62.0,
+    "3-gram": 52.3,
+    "4-gram": 44.3
+    },
+
+"Token-Based Detection" : {
+    "TP":   2587,
+    "FP":   7140,
+    "FN":   2557,
+    "Prec": 26.6,
+    "Rec":  50.29,
+    "F0.5": 29.36
+    },
+"Span-Based Correction" : {
+    "TP":   859,
+    "FP":   5415,
+    "FN":   3436,
+    "Prec": 13.69,
+    "Rec":  20.0,
+    "F0.5": 14.61
+    }
+},
+
+{
+"Model": "mixtral/Mixtral_fewshot",
+"Rouge": {
+    "rouge1_fmeasure": 84.98,
+    "rouge1_precision": 84.84,
+    "rouge1_recall": 86.28,
+    "rouge2_fmeasure": 73.39,
+    "rouge2_precision": 73.22,
+    "rouge2_recall": 74.67,
+    "rougeL_fmeasure": 84.09,
+    "rougeL_precision": 83.96,
+    "rougeL_recall": 85.35,
+    "rougeLsum_fmeasure": 84.12,
+    "rougeLsum_precision": 83.98,
+    "rougeLsum_recall": 85.41},
+"Bleu": {
+    "BLEU" : 62.83,
+    "1-gram": 80.2,
+    "2-gram": 67.5,
+    "3-gram": 57.8,
+    "4-gram": 49.8
+    },
+"Token-Based Detection" :{
+    "TP":   2951,
+    "FP":   6834,
+    "FN":   2193,
+    "Prec": 30.16,
+    "Rec":  57.37,
+    "F0.5": 33.32
+    },
+"Span-Based Correction" : {
+    "TP":   1128,
+    "FP":   5500,
+    "FN":   3167,
+    "Prec": 17.02,
+    "Rec":  26.26,
+    "F0.5": 18.31
+    }
+},
+
+{
+"Model": "mixtral/output_Mixtral-8x7B-Instruct-v0.1_4",
+"Rouge": {
+    "rouge1_fmeasure": 54.16,
+    "rouge1_precision": 43.84,
+    "rouge1_recall": 90.28,
+    "rouge2_fmeasure": 45.71,
+    "rouge2_precision": 37.00,
+    "rouge2_recall": 77.06,
+    "rougeL_fmeasure": 52.65,
+    "rougeL_precision": 42.74,
+    "rougeL_recall": 87.22,
+    "rougeLsum_fmeasure": 53.41,
+    "rougeLsum_precision": 43.25,
+    "rougeLsum_recall": 88.91
+    },
+"Bleu":{
+    "BLEU" : 22.19,
+    "1-gram": 29.8,
+    "2-gram": 24.1,
+    "3-gram": 20.1,
+    "4-gram": 16.8
+    },
+"Token-Based Detection" : {
+    "TP":   2638,
+    "FP":   6800,
+    "FN":   2506,
+    "Prec": 27.95,
+    "Rec":  51.28,
+    "F0.5": 30.75
+    },
+"Span-Based Correction" : {
+    "TP":   965,
+    "FP":   6123,
+    "FN":   3330,
+    "Prec": 13.61,
+    "Rec":  22.47,
+    "F0.5": 14.78
+    }
+}
+]
